@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import TaskRender from './TaskRender'
 
+
+
 const CreateTodo = () => {
-  const [ todo, setTodo] = useState(['nishant'])
+  const [ todo, setTodo] = useState([])
   const [ userInput, setUserInput] = useState('')
 
   const Change = (event) => {
